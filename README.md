@@ -20,11 +20,11 @@ A temperature sensor module will be used. A GPS module will be used to remind th
 
 # Software Programmes Languages to be used
 # Measurements/Calculations for Stats on bike
-C/C++ / python
+Python + MQTT
 # Android App    
-PHP, MySQL, Android Studio HTTP Server, Java
+MySQL, Android Studio HTTP Server, Java
 # Web page & Server
-Apache2 HTTP Server, Java, HTML/CSS
+Amazon Web Services (AWS), MongoDB, PHP, NODEJS
 
 
  
