@@ -22,9 +22,9 @@ A temperature sensor module will be used. A GPS module will be used to remind th
 # Measurements/Calculations for Stats on bike
 Python + MQTT
 # Android App    
-MySQL, Android Studio HTTP Server, Java
+MySQL, Android Studio, Java
 # Web page & Server
-Amazon Web Services (AWS), MongoDB, PHP, NODEJS
+Amazon Web Services (AWS), MongoDB, JavaScript, NODEJS
 
 
  
