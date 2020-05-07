@@ -107,7 +107,7 @@ const options = {
                 }
             }]
         }
-    }
+    }   
 }
 const chart = new Chart(ctx, options);
 	

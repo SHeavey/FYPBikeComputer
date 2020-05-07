@@ -134,7 +134,7 @@ function  delete_ride(np){
 									}
 				else{
 					console.log(data.status);
-					
+					               
 					}
 				
 				

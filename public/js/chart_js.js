@@ -139,7 +139,7 @@ const options = {
 const chart = new Chart(ctx, options);
 	
 
-
+    
 //Speed Graph
 var ctx = document.getElementById('speed_canvas').getContext('2d');
 	
