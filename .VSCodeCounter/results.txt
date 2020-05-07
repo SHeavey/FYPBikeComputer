@@ -1,0 +1,67 @@
+Date : 2020-05-07 11:58:56
+Directory : c:\Users\Shane\Desktop\Level 8 Docs\bikebackend
+Total : 29 files,  22818 codes, 2567 comments, 3345 blanks, all 28730 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JavaScript         |         16 |     13,731 |      2,541 |      3,250 |     19,522 |
+| CSS                |          6 |      7,440 |         23 |         33 |      7,496 |
+| JSON               |          2 |      1,127 |          0 |          2 |      1,129 |
+| XML                |          1 |        288 |          0 |          0 |        288 |
+| HTML               |          3 |        225 |          3 |         60 |        288 |
+| JSON with Comments |          1 |          7 |          0 |          0 |          7 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                                                                       |         29 |     22,818 |      2,567 |      3,345 |     28,730 |
+| public                                                                                                                  |         18 |     21,188 |      2,549 |      3,177 |     26,914 |
+| public\css                                                                                                              |          2 |         62 |          1 |         20 |         83 |
+| public\js                                                                                                               |          3 |        379 |         32 |        167 |        578 |
+| public\libs                                                                                                             |         13 |     20,747 |      2,516 |      2,990 |     26,253 |
+| public\libs\bootstrap-3.3.5-dist                                                                                        |          8 |      9,268 |        221 |        596 |     10,085 |
+| public\libs\bootstrap-3.3.5-dist\css                                                                                    |          4 |      7,378 |         22 |         13 |      7,413 |
+| public\libs\bootstrap-3.3.5-dist\fonts                                                                                  |          1 |        288 |          0 |          0 |        288 |
+| public\libs\bootstrap-3.3.5-dist\js                                                                                     |          3 |      1,602 |        199 |        583 |      2,384 |
+| views                                                                                                                   |          3 |        225 |          3 |         60 |        288 |
++-------------------------------------------------------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                                                                | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\FYPworkspace.code-workspace                                             | JSON with Comments |          7 |          0 |          0 |          7 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\api-routes.js                                                           | JavaScript         |         17 |          1 |         11 |         29 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\index.js                                                                | JavaScript         |         33 |          1 |         25 |         59 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\mqttHandler.js                                                          | JavaScript         |         67 |          4 |         34 |        105 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\package-lock.json                                                       | JSON               |      1,109 |          0 |          1 |      1,110 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\package.json                                                            | JSON               |         18 |          0 |          1 |         19 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\css\index.css                                                    | CSS                |         61 |          1 |         19 |         81 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\css\select2.min.css                                              | CSS                |          1 |          0 |          1 |          2 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\js\chart2_js.js                                                  | JavaScript         |         73 |         11 |         36 |        120 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\js\chart_js.js                                                   | JavaScript         |        209 |         15 |         73 |        297 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\js\main.js                                                       | JavaScript         |         97 |          6 |         58 |        161 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\css\bootstrap-theme.css                | CSS                |        581 |          6 |          1 |        588 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\css\bootstrap-theme.min.css            | CSS                |          1 |          4 |          0 |          5 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\css\bootstrap.css                      | CSS                |      6,795 |          8 |         12 |      6,815 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\css\bootstrap.min.css                  | CSS                |          1 |          4 |          0 |          5 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\fonts\glyphicons-halflings-regular.svg | XML                |        288 |          0 |          0 |        288 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\js\bootstrap.js                        | JavaScript         |      1,588 |        193 |        583 |      2,364 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\js\bootstrap.min.js                    | JavaScript         |          2 |          5 |          0 |          7 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\bootstrap-3.3.5-dist\js\npm.js                              | JavaScript         |         12 |          1 |          0 |         13 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\chart.bundle.min.js                                         | JavaScript         |          1 |          6 |          1 |          8 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\chart.js                                                    | JavaScript         |     11,473 |      2,287 |      2,392 |     16,152 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\jquery.min.js                                               | JavaScript         |          3 |          2 |          1 |          6 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\moment.min.js                                               | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\public\libs\select2.min.js                                              | JavaScript         |          1 |          0 |          0 |          1 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\rideController.js                                                       | JavaScript         |        129 |          9 |         32 |        170 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\rideModel.js                                                            | JavaScript         |         25 |          0 |          4 |         29 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\views\conditions.ejs                                                    | HTML               |         49 |          0 |         19 |         68 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\views\index.ejs                                                         | HTML               |        101 |          2 |         19 |        122 |
+| c:\Users\Shane\Desktop\Level 8 Docs\bikebackend\views\ride.ejs                                                          | HTML               |         75 |          1 |         22 |         98 |
+| Total                                                                                                                   |                    |     22,818 |      2,567 |      3,345 |     28,730 |
++-------------------------------------------------------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+

@@ -1,0 +1,98 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Interactive Bike</title>
+        <link href="/libs/bootstrap-3.3.5-dist/css/bootstrap.min.css" rel='stylesheet' type='text/css' />
+        <link href ="/css/index.css" rel = "stylesheet" type = "text/css" >
+        
+        <style>
+        #this_nav{
+		}
+		#this_nav span{
+			padding: 7px; display:inline-block; font-size:12px;
+		}
+		#this_nav span>a{
+			font-size:12px; font-weight: bolder; color:#0F6; text-decoration:none;
+		}
+        .active{
+		 	border-bottom:2px solid #FFF;
+			background-color:rgba(200, 200, 200, 0.4); padding:2px;	
+		}
+		
+		.chart_ch{
+			display:none;
+			}
+        
+        </style>
+        
+    </head>
+
+    <body>
+    	
+        <div class="page-header" style="margin-top:5px;">
+        	<div style="display:inline-block">
+            	<a href="/" style="text-align: center; font-weight:bolder; font-size:16px; color:#5F0 " > Interactive Bike Computer</a>
+           </div>
+           <div style="display:inline-block; color:#FFF; background-color:rgba(4, 4, 4, 0.5); padding:3px; margin-left:20px; font-weight:bold; font-size:16px">
+            <span class="glyphicon glyphicon-info-sign"></span> <span id="ride_title"> </span>
+           </div>
+        </div>
+        <div class="container">
+            <nav>
+              <div id="this_nav">
+                <span><a href="#" id="distance">Distance</a></span>
+                <span><a href="#" id="speed">Speed</a></span>
+                <span><a href="#" id="average">Average Speed</a></span>
+                <span><a href="#" id="table">Table</a></span>
+              </div>
+            </nav>
+         </div>
+          
+        <div class="container-fluid" style="margin-top:0px;  margin-bottom:20px;">
+        
+        
+        <canvas id="distance_canvas" class="chart_ch" width="400" height="400" style="background-color:#FFF"></canvas>
+		<canvas id="speed_canvas" class="chart_ch" width="400" height="400" style="background-color:#FFF"></canvas>
+		<canvas id="average_canvas" class="chart_ch" width="400" height="400" style="background-color:#FFF"></canvas>
+        
+        <div id="table_canvas" class="my_table_div chart_ch table-responsive" style="max-width:800px">
+        	<table class="table table-hover" style="background-color:rgba(2, 2, 2, 0.5); color:#FFF">
+            	<thead>
+                	<tr>
+                    	<th>Time</th>
+                        <th>Speed</th>
+                        <th>Rpm</th>
+                        <th>Distance</th>
+                        <th>Avg. Sped</th>
+                        <th>Max. Speed</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        
+        </div>
+            
+        </div>
+        
+     </div>   
+     
+     
+     <!----------  Loader  ----------->
+     <div id="page_loader" style="position:fixed; top:0px; left: 0px; height:100%; width:100%; background-color:rgba(2, 2, 2, 0.9); z-index:5; color:#FFF; padding-top: 100px; text-align:center;">Loading....</div>
+        
+        
+    
+    
+    <script src="/libs/jquery.min.js"></script>
+    <script src="/libs/chart.bundle.min.js"></script>
+    <script src="/libs/bootstrap-3.3.5-dist/js/bootstrap.min.js"></script>
+    
+    <script>
+		var ride_id = "<%= ride_id  %>";  //This render the ride_data we passed in the ridecontroler; 
+    </script>
+	<script src="/js/chart_js.js"></script>
+    
+    
+  </body>  
+</html>
