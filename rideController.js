@@ -5,7 +5,7 @@ Ride = require('./rideModel');
 exports.index = function (req, res) {
 	
 	var rideprojection = { // This is the field that will not be return
-		_v: 0,
+		_v: 0,//version and data not shown here
 		data: 0,
 		};
 		
@@ -49,7 +49,7 @@ exports.updateOverMessage = function (d_idn, time_n, data_n) {
 
     Ride.findOneAndUpdate(
 		{d_id : d_idn, s_time: time_n},
-		{$push: {data: data_n}},
+		{$push: {data: data_n}}, //pushing new data in the data array
 		function (err, success) { 
         if (err) {
             console.log("Not saved due to " + err);
@@ -62,7 +62,7 @@ exports.updateOverMessage = function (d_idn, time_n, data_n) {
 exports.view = function (req, res) {
 	
 	var rideprojection = { // This first will not be included in the result
-		_v: 0,
+		_v: 0, //version of data that is not required
 		};
     Ride.findById(req.params.ride_id, rideprojection, function (err, ride_data) {
         if (err) {
@@ -82,7 +82,7 @@ exports.view = function (req, res) {
 /****   GET the data of a single Ride with an _id ******/
 exports.conditions = function (req, res) {
 	
-    Ride.aggregate([
+    Ride.aggregate([ //grouping the ride by using id condition, same as findById, but aggregate saves memory in db and prevents slow app
 		{
 		 $group : {
 			 _id: "$cond",  //group by conditions
@@ -109,7 +109,7 @@ exports.conditions = function (req, res) {
 /****   GET the data of all Ride with an  this field : value ******/
 exports.view_custome = function (req, res) {
 	
-	var rideprojection = { // This fieled will not be return
+	var rideprojection = { // This field will not be return
 		data: 0
 		};
     Ride.find({field : req.params.value}, rideprojection, function (err, ride_data) {
@@ -132,7 +132,7 @@ exports.view_custome = function (req, res) {
 exports.update_cond = function (req, res) {  //console.log(req);
     Ride.findOneAndUpdate(
 		{_id : req.body.ride_id},
-		{$set: {name: req.body.name, cond: req.body.cond}},
+		{$set: {name: req.body.name, cond: req.body.cond}}, //set is mongo operator
 		function (err, success) { 
         if (err) {
             res.json({

@@ -12,7 +12,7 @@
 	var cond = "";
     
 
-$(document).ready(function(){	
+$(document).ready(function(){	 //jQuery detecting ready state
 	
 	/* When all document are loaded, fetch the ride data of this ride and process all charts **/
 	
@@ -75,10 +75,6 @@ $(document).ready(function(){
     
  });   
     
-
-
-
-
 
 
 function  plot_charts(){

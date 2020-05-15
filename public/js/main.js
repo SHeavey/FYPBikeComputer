@@ -1,7 +1,7 @@
 var glob_rid_id = "";
 
 
-$(document).ready(function(){
+$(document).ready(function(){ //specifies callback function which will be executed when document is loaded
 
 // GET All the Ride in our database ( THis will only return meta data).
 $.ajax({
@@ -13,11 +13,12 @@ $.ajax({
     },
     success : function (data, res) { //console.log(data);
 		var ix = 1;
-        data.data.forEach(function(ride){
+        data.data.forEach(function(ride){ //single ride and loops for all the rides. forEach loops through everything in data.data
             // generate the html row for each ride and append to the table.
             var row = '<tr id="'+ ride._id +'"><td>'+ ix +'</td><td>'+ ride.d_id +'</td><td>'+ ride.name +'</td><td>'+ ride.cond +'</td><td>'+ get_formated_date(ride.s_time) +'</td><td><a href="/view/'+ ride._id +'" class="btn btn-primary btn-xs glyphicon  glyphicon-fullscreen">View</a></td><td><button  onClick="edit_ride(\''+ ride._id +'\')" class="btn btn-primary btn-xs glyphicon glyphicon-edit"> Edit</button></td></tr>';
             
-			$("#rides_table tbody").append(row);
+			$("#rides_table tbody").append(row); //append = add to able body
+			ix +=1;
         });
     }
  });
@@ -47,7 +48,7 @@ function edit_ride(ride_id){
  
  
 //Update the ride conditon andd ride Name through ajax post request to the ride api
-function  update_ride(event){
+function update_ride(event){
 		
 		event.preventDefault(); //Prevent the default form submission
 		

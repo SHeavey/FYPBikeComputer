@@ -33,24 +33,26 @@ $.ajax({
             conditions = cond._id.split(", ");  //conver thr conditions to array  ['windy', 'wet', ...]
 			count = cond.count;  //Frequency of this grouping
 			conditions.forEach(function(condition){
-				if(condition in conditions_ray){
+				if(condition in conditions_ray){ //check if cond is already in array
 					
-					conditions_ray[condition] += count;
+					conditions_ray[condition] += count;//if so increase count
 					
 					}
 				else{
 					
-					conditions_ray[condition] = count;
+					conditions_ray[condition] = count;//if not, put = to count
 					
 					}
 			});
 			
         });
-		
-		for(var key in conditions_ray){
+       // ['sunny_day' : 5, '']
+       //1 ['sunny_day'}, 'wet_day']
+        //2{5, 6}
+		for(var key in conditions_ray){ //
             
-			cond_label.push(key);
-			cond_val.push(conditions_ray[key]);
+			cond_label.push(key);//1
+			cond_val.push(conditions_ray[key]);//2
 			
 		}
 		
