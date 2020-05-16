@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/colorPrimaryDark">
+
+    <TextView
+        android:id="@+id/textview1"
+        android:layout_width="395dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:text="ABC"
+        android:textColor="#EE0F0F0F"
+        android:textSize="18sp" />
+
+
+    <TextView
+        android:id="@+id/textview2"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:text="ABC"
+        android:layout_below="@id/textview1"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="16dp"
+        android:textColor="#EE0F0F0F"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_alignTop="@id/textview2"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="120dp">
+
+    <Button
+        android:id="@+id/map"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+
+
+        android:background="@drawable/button3_default"
+        android:text="@string/map"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/graph"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:background="@drawable/button_default"
+        android:text="@string/graph"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/speed"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
+
+        android:background="@drawable/button2_default"
+        android:text="@string/realtime_speed"
+        android:textAllCaps="false"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="18sp" />
+    </LinearLayout>
+</RelativeLayout>

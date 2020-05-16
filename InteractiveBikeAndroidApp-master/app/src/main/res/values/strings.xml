@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CycleRpm</string>
+    <string name="action_settings">Settings</string>
+    <string name="map">MAP</string>
+    <string name="graph">GRAPH</string>
+    <string name="realtime_speed">REALTIME SPEED</string>
+    <string name="avg_speed">AVG. SPEED</string>
+    <string name="speed">Speed</string>
+    <string name="_0_km_h">0 Km/H</string>
+    <string name="fastest_speed">FASTEST SPEED</string>
+    <string name="interactive_bike_computer">Interactive Bike Computer</string>
+    <string name="name">Name</string>
+    <string name="wheel_size">Wheel size</string>
+    <string name="confirm">Confirm</string>
+</resources>
