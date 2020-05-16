@@ -16,7 +16,7 @@ $(document).ready(function(){	 //jQuery detecting ready state
 	
 	/* When all document are loaded, fetch the ride data of this ride and process all charts **/
 	
-	$.ajax({
+	$.ajax({ //all ajax syntaxs
     type: 'GET',
     url: '/api/ride/' + ride_id,
     dataType: 'json',
@@ -32,7 +32,7 @@ $(document).ready(function(){	 //jQuery detecting ready state
 		
 		var time_n = rdata['time'];
 		var speed = rdata['speed'];
-		var distance = rdata['distance'];
+		var distance = rdata['distance']; 
 		var average = rdata['average'];
 		var rpm = rdata['rpm'];
 		var maximum = rdata['maximum'];
@@ -62,12 +62,12 @@ $(document).ready(function(){	 //jQuery detecting ready state
   /* Register click listener for the nav link   */
   $("#this_nav a").on('click', function(){
 	  
-	  $("#this_nav a").removeClass('active');
+	  $("#this_nav a").removeClass('active'); //removeClass jQuery function
 	  $(this).addClass('active');  //Make this nav link active
 	  
 	  $(".chart_ch").hide();  //Hide all charts and table;
 	  
-	  $("#" + this.id + "_canvas").show(); //Show this chart or table
+	  $("#g" + this.id + "_canvas").show(); //Show this chart or table. # on its own will always run
 	  
 	  
 	  });

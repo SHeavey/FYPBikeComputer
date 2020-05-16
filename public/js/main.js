@@ -132,7 +132,7 @@ function  delete_ride(np){
 				if(data.status == "success"){// if update was successfull
 					//Remove the ride
 					$("#" + glob_rid_id).remove();
-									}
+				}
 				else{
 					console.log(data.status);
 					               

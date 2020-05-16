@@ -80,7 +80,7 @@ mqtt_client.on('message', function(topic, message, packet) {
 			else{ // This ride is currently ongoing
 				
 				devices[d_id]['last_time'] =  time_n;  //set the last_time to current time
-				
+				 
 				rideController.updateOverMessage(d_id, devices[d_id]['start_time'], data) //Append to the ride data of this Ride
 				
 				
