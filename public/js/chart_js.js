@@ -107,7 +107,7 @@ const options = {
 							//unit: 'millisecond'
 							displayFormats:{
 								'hour' : 'hh:mm;ss',
-								//'minute' : 'mm:ss', visit chartjs time series for other options
+								//'minute' : 'mm:ss',  chartjs time series has more options
 								
 								}
 						},
@@ -164,7 +164,7 @@ const options_2 = {
 							//unit: 'millisecond'
 							displayFormats:{
 								'hour' : 'hh:mm;ss',
-								//'minute' : 'mm:ss', visit chartjs time series for other options
+								//'minute' : 'mm:ss',  chartjs time series has more options
 								
 								}
 						},
@@ -233,7 +233,7 @@ const options_3 = {
 							//unit: 'millisecond'
 							displayFormats:{
 								'hour' : 'hh:mm;ss',
-								//'minute' : 'mm:ss', visit chartjs time series for other options
+								//'minute' : 'mm:ss',  chartjs time series has more options
 								
 								}
 						},

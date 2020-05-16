@@ -46,9 +46,9 @@ $.ajax({
 			});
 			
         });
-       // ['sunny_day' : 5, '']
-       //1 ['sunny_day'}, 'wet_day']
-        //2{5, 6}
+       // ['dry' : 5, '']
+       //1 ['dry', 'wet']
+        //2 {5, 6}
 		for(var key in conditions_ray){ //
             
 			cond_label.push(key);//1
