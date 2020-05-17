@@ -1,4 +1,4 @@
-var glob_rid_id = "";
+var glob_rid_id = "";//when i want to update details to db, use this global variable as ride_id is out of scope
 
 
 $(document).ready(function(){ //specifies callback function which will be executed when document is loaded
@@ -66,7 +66,7 @@ function update_ride(event){
 		$('#modal_edit').modal('hide'); //Hide the modal
 		
 		$.ajax({
-			type: 'POST',
+			type: 'POST', //posting the updated ride name and conditions
 			url: '/api/ride',
 			data: fdata,
 			dataType: 'json',
@@ -117,7 +117,7 @@ function  delete_ride(np){
 	
 	
 	$.ajax({
-			type: 'DELETE',
+			type: 'DELETE', //deleting the specific ride
 			url: '/api/ride/' + glob_rid_id,
 			dataType: 'json',
 			error: function (data) {

@@ -27,7 +27,7 @@ var port = process.env.PORT || 80;
 app.use(express.static('public'));
 
 
-app.use('/api', apiRoutes);
+app.use('/api', apiRoutes); //links to api-routes
 
 
 app.get('/', function(req, res){

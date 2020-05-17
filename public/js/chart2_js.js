@@ -28,7 +28,7 @@ $.ajax({
 		  { _id: 'Windy', count: 1 }
 		]
 	*/	
-        data.forEach(function(cond){
+        data.forEach(function(cond){ //from $cond in controller
 			
             conditions = cond._id.split(", ");  //conver thr conditions to array  ['windy', 'wet', ...]
 			count = cond.count;  //Frequency of this grouping
