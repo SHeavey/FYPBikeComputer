@@ -6,7 +6,12 @@ GitHub Account for Interactive Bike Computer
 # B.Eng (H) Software & Electronic Engineering
 
 # Project Description
-Viewing real time statistics while riding is extremely important for professional riders and people who take cycling seriously. My final year project will be an interactive bike computer. Data such as current/maximum/average speed, cadence, distance, temperature and the trip ride time will be measured. This data will be displayed real time, on an Android application that will be mounted to the front of the bike. Cyclists will have the option to share their journey to a webpage. This user-friendly webpage will store data from all shared journeys. Graphs will also be available on the webpage. A heart rate module will be placed on the handle bars. This will allow the user to be aware of how much there body is working at different stages of the cycle. LEDs will flash when the cyclist goes over a certain heart rate to let them know that there body is working harder than it should be. Overall, the aim of this project is to assist and improve the performance of people who take cycling seriously.
+The outcome of this project is a multi-functional bike computer that calculates data to which a cyclist would want to have real-time access.  This project is geared towards professional cyclists and people who take cycling seriously.  During the research phase, numerous avid cyclists were asked their opinions, with the consensus being that everyone would enjoy having access to real-time statistics while cycling.
+
+The scope of the project begins with collecting data, such as current, average, and maximum speed, distance, and revolutions per minute (RPM).  It then transmits data from a sensor to an MQTT broker for storage, where a user-friendly website and Android application that subscribe to the data display it in real-time.
+
+The project reached its goal of developing a fully functional module for cyclists.  The project was challenging and presented numerous learning opportunities.  Some of the learning opportunities include the use of new hardware and programming languages, including, but not limited to, Python, Java, and JavaScript, Node, Express, jQuery, chart.js, and ajax.
+
 
 # Hardware Requirements
 
@@ -15,16 +20,19 @@ I will use a Raspberry Pi to power my project with two Hall Effect Sensors attac
 •	Cadence
 •	Distance
 •	Ride time
-A temperature sensor module will be used. A GPS module will be used to remind the cyclist where the journey was when looking back on previous journeys on the webpage. A heart rate module will signal the cyclist how much there body is working. LEDs will also flash when the cyclist goes over a certain heart rate and the speed limit of the road. 
+
 
 
 # Software Programmes Languages to be used
+Python
+Java
+JavaScript
 # Measurements/Calculations for Stats on bike
 Python + MQTT
 # Android App    
 MySQL, Android Studio, Java
 # Web page & Server
-Amazon Web Services (AWS), MongoDB, JavaScript, NODEJS
+Amazon Web Services (AWS), MongoDB, JavaScript, NODEJS, PuTTY, WINSCP
 
 
  
