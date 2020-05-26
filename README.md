@@ -17,18 +17,14 @@ The outcome of this project is a multi-functional bike computer that calculates 
 
 The scope of the project begins with collecting data, such as current, average, and maximum speed, distance, and revolutions per minute (RPM).  It then transmits data from a sensor to an MQTT broker for storage, where a user-friendly website and Android application that subscribe to the data display it in real-time.
 
-The project reached its goal of developing a fully functional module for cyclists.  The project was challenging and presented numerous learning opportunities.  Some of the learning opportunities include the use of new hardware and programming languages, including, but not limited to, Python, Java, and JavaScript, Node, Express, jQuery, chart.js, and ajax.
-
+The project reached its goal of developing a fully functional module for cyclists.  The project was challenging and presented numerous learning opportunities.  Some of the learning opportunities include the use of new hardware and programming languages, including, but not limited to, Python, Java, and JavaScript, Node, Express, jQuery, chart.js, and Ajax.
 
 # Hardware Requirements
 
-I will use a Raspberry Pi to power my project with two Hall Effect Sensors attached to a bike that will measure the following: 
+I will use a Raspberry Pi to power my project with a Hall Effect Sensor attached to a bike that will measure the following: 
 •	Current/Maximum/Average speed
-•	Cadence
 •	Distance
-•	Ride time
-
-
+•	RPM
 
 # Software Programmes Languages to be used
 Python
