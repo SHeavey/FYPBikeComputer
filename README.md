@@ -1,6 +1,6 @@
 # Branches
 ### Fullstack2 - Full stack code
-### Fullstackfinal/code - python script connecting to data to mqtt broker
+### Fullstackfinal/code - python script connecting data to mqtt broker
 ### master - Android application code
 ### _____________________________________________________________________________________________________-
 
