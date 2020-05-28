@@ -2,7 +2,7 @@
 ### Fullstack2 - Full stack code
 ### Fullstackfinal/code - python script connecting data to mqtt broker
 ### master - Android application code
-### _____________________________________________________________________________________________________-
+### ____________________________________________________________________________________________________
 
 
 # FYPBikeComputer
